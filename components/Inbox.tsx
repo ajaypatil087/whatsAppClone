@@ -12,33 +12,74 @@ import {Avatar} from '@react-native-material/core';
 import {useNavigation} from '@react-navigation/native';
 import {useState} from 'react';
 import {ScrollView} from 'react-native-gesture-handler';
-
+import users from './assets/user';
 interface MessageProps {
   route: any;
+}
+interface MessageState {
+  msg: string,
+  sntMsg: string[]
 }
 
 const Message = (props: MessageProps) => {
   const {route} = props;
   const {id} = route.params;
+  const user = users[id - 1];
+  const [state, setState] = useState<MessageState>({
+    sntMsg: [],
+    msg: ''
+  });
+
   return (
     <ImageBackground
       source={require('./assets/inboxBg.jpg')}
       style={styles.backgroundImage}>
-      <ScrollView style={styles.msgView}></ScrollView>
+      <ScrollView style={styles.msgView}>
+        {renderRecMessage(user.message)}
+        {state.sntMsg.map((msg, key) => renderSenMessage(msg, key))}
+      </ScrollView>
       <View style={styles.inputContainer}>
         <TextInput
           style={styles.inpt}
           placeholder="Type a message..."
           multiline
           autoFocus
+          onChange={(e) => setState({ ...state, msg: e.nativeEvent.text })}
         />
-        <TouchableOpacity style={styles.sendButton}>
+        <TouchableOpacity
+          style={styles.sendButton}
+          onPress={() => {
+            if (state.msg.length){
+              setState({ sntMsg: [...state.sntMsg, state.msg], msg: '' })}
+            }
+          }
+        >
           <Icon name="send" size={24} color="white" />
         </TouchableOpacity>
       </View>
     </ImageBackground>
   );
 };
+
+function renderRecMessage(message: string) {
+  return (
+    <View style={styles.msgContainer}>
+      <View style={styles.msgTextContainer}>
+        <Text style={styles.messageText}>{message}</Text>
+      </View>
+    </View>
+  );
+}
+
+function renderSenMessage(message: string, key: number) {
+  return (
+    <View style={styles.sntMsgContainer} key={key}>
+      <View style={styles.sntMsgTextContainer}>
+        <Text style={styles.messageText}>{message}</Text>
+      </View>
+    </View>
+  );
+}
 
 const InboxTitle = (props: any) => {
   const {title} = props.route.params;
@@ -156,7 +197,9 @@ const styles = StyleSheet.create({
     flex: 1,
     resizeMode: 'cover',
   },
-  msgView: {},
+  msgView: {
+    display: 'flex'
+  },
   inputContainer: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -177,6 +220,33 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     padding: 10,
   },
+  msgContainer: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'flex-start',
+    padding: 10,
+  },
+  sntMsgContainer: {
+    display: 'flex',
+    flexDirection: 'row',
+    alignItems: 'flex-end',
+    justifyContent: 'flex-end',
+    padding: 10,
+  },
+  msgTextContainer: {
+    backgroundColor: '#fff',
+    borderRadius: 10,
+    padding: 10,
+  },
+  sntMsgTextContainer: {
+    backgroundColor: '#fff',
+    borderRadius: 10,
+    padding: 10
+  },
+  messageText: {
+    fontSize: 16,
+    color: '#000'
+  }
 });
 
 const headerStyles = StyleSheet.create({
