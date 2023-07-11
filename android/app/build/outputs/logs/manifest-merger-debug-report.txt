@@ -13,6 +13,7 @@ MERGED from [:react-native-gesture-handler] /Applications/Work_Space/whatsAppClo
 MERGED from [:react-native-pager-view] /Applications/Work_Space/whatsAppClone/node_modules/react-native-pager-view/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-safe-area-context] /Applications/Work_Space/whatsAppClone/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-screens] /Applications/Work_Space/whatsAppClone/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-svg] /Applications/Work_Space/whatsAppClone/node_modules/react-native-svg/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-vector-icons] /Applications/Work_Space/whatsAppClone/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.react:react-android:0.71.11] /Users/ajaypatil/.gradle/caches/transforms-3/e72c384b604489998aa7d7b6ebf2cf81/transformed/jetified-react-android-0.71.11-debug/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/ajaypatil/.gradle/caches/transforms-3/99aff712051ad58ba66b2f75862e9a10/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
@@ -188,6 +189,8 @@ MERGED from [:react-native-safe-area-context] /Applications/Work_Space/whatsAppC
 MERGED from [:react-native-safe-area-context] /Applications/Work_Space/whatsAppClone/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] /Applications/Work_Space/whatsAppClone/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-screens] /Applications/Work_Space/whatsAppClone/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-svg] /Applications/Work_Space/whatsAppClone/node_modules/react-native-svg/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-svg] /Applications/Work_Space/whatsAppClone/node_modules/react-native-svg/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-vector-icons] /Applications/Work_Space/whatsAppClone/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-vector-icons] /Applications/Work_Space/whatsAppClone/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.react:react-android:0.71.11] /Users/ajaypatil/.gradle/caches/transforms-3/e72c384b604489998aa7d7b6ebf2cf81/transformed/jetified-react-android-0.71.11-debug/AndroidManifest.xml:5:5-7:41
