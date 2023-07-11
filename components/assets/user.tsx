@@ -1,7 +1,7 @@
 const users = [
   {
     id: 1,
-    name: 'John',
+    name: 'Jude',
     message: 'Hello, how are you?',
   },
   {
