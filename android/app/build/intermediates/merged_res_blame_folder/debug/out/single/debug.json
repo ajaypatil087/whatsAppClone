@@ -12,6 +12,30 @@
         "source": "com.whatsappclone.app-main-7:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
+        "merged": "com.whatsappclone.app-merged_res-5:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.whatsappclone.app-main-7:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.whatsappclone.app-merged_res-5:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.whatsappclone.app-main-7:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.whatsappclone.app-merged_res-5:/mipmap-ldpi_ic_launcher.png.flat",
+        "source": "com.whatsappclone.app-main-7:/mipmap-ldpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.whatsappclone.app-merged_res-5:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.whatsappclone.app-main-7:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.whatsappclone.app-merged_res-5:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.whatsappclone.app-main-7:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.whatsappclone.app-merged_res-5:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.whatsappclone.app-main-7:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
         "merged": "com.whatsappclone.app-merged_res-5:/mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "com.whatsappclone.app-main-7:/mipmap-xhdpi/ic_launcher_round.png"
     },
@@ -36,11 +60,11 @@
         "source": "com.whatsappclone.app-main-7:/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.whatsappclone.app-merged_res-5:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "com.whatsappclone.app-main-7:/mipmap-hdpi/ic_launcher.png"
+        "merged": "com.whatsappclone.app-merged_res-5:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.whatsappclone.app-main-7:/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "com.whatsappclone.app-merged_res-5:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "com.whatsappclone.app-main-7:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "com.whatsappclone.app-merged_res-5:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.whatsappclone.app-main-7:/mipmap-hdpi/ic_launcher_foreground.png"
     }
 ]
