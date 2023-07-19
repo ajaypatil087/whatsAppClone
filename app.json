@@ -1,4 +1,18 @@
 {
   "name": "whatsAppClone",
-  "displayName": "whatsAppClone"
+  "displayName": "whatsAppClone",
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "eadc4afe-8f01-4764-96e1-7a7e624df378"
+      }
+    },
+    "owner": "beajay087",
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/eadc4afe-8f01-4764-96e1-7a7e624df378"
+    },
+    "android": {},
+    "ios": {}
+  }
 }

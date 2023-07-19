@@ -1944,6 +1944,7 @@ string chip_text
 string clear_text_end_icon_content_description
 string combobox_description
 string error_icon_content_description
+string expo_runtime_version
 string exposed_dropdown_menu_content_description
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
