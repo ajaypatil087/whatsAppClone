@@ -1,13 +1,13 @@
-current directory: /Applications/Work_Space/whatsAppClone/vendor/bundle/ruby/2.6.0/gems/json-2.6.3/ext/json
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20230617-18697-gsvnbf.rb extconf.rb
+current directory: /Applications/Work_Space/WhatsAppClone2/vendor/bundle/ruby/2.6.0/gems/json-2.6.3/ext/json
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20230722-4086-1segjut.rb extconf.rb
 creating Makefile
 
-current directory: /Applications/Work_Space/whatsAppClone/vendor/bundle/ruby/2.6.0/gems/json-2.6.3/ext/json
+current directory: /Applications/Work_Space/WhatsAppClone2/vendor/bundle/ruby/2.6.0/gems/json-2.6.3/ext/json
 make "DESTDIR=" clean
 
-current directory: /Applications/Work_Space/whatsAppClone/vendor/bundle/ruby/2.6.0/gems/json-2.6.3/ext/json
+current directory: /Applications/Work_Space/WhatsAppClone2/vendor/bundle/ruby/2.6.0/gems/json-2.6.3/ext/json
 make "DESTDIR="
 make: Nothing to be done for `all'.
 
-current directory: /Applications/Work_Space/whatsAppClone/vendor/bundle/ruby/2.6.0/gems/json-2.6.3/ext/json
+current directory: /Applications/Work_Space/WhatsAppClone2/vendor/bundle/ruby/2.6.0/gems/json-2.6.3/ext/json
 make "DESTDIR=" install

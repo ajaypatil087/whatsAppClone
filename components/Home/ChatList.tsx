@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import {
-  ScrollView,
+  Animated,
   StyleSheet,
   Text,
   TouchableOpacity,
@@ -12,6 +12,7 @@ import {responsiveWidth} from 'react-native-responsive-dimensions';
 import {useNavigation} from '@react-navigation/native';
 
 import users from '../assets/user';
+import { SafeAreaView } from 'react-native';
 
 const chatRow = (
   id: number,
@@ -57,17 +58,25 @@ const chatRow = (
 };
 
 const ChatList = (): JSX.Element => {
+    const scrolling = useRef(new Animated.Value(0)).current;
   const navigation = useNavigation();
   const handlePress = (id: number, name: string) => {
     navigation.navigate('Inbox', {id, title: name});
   };
   return (
-    <View style={{flex: 1}}>
-      <ScrollView style={styles.main}>
+    <SafeAreaView style={{flex: 1}}>
+      <Animated.ScrollView
+        style={styles.main}
+        scrollEventThrottle={1}
+        onScroll={Animated.event(
+            [{ nativeEvent: { contentOffset: { y: scrolling } } }],
+            { useNativeDriver: true }
+        )}
+    >
         {users.map(user => {
           return chatRow(user.id, user.name, user.message, handlePress);
         })}
-      </ScrollView>
+      </Animated.ScrollView>
       <View style={styles.newMsgContainer}>
         <FAB
           style={styles.addMsgBtn}
@@ -76,7 +85,7 @@ const ChatList = (): JSX.Element => {
           )}
         />
       </View>
-    </View>
+    </SafeAreaView>
   );
 };
 

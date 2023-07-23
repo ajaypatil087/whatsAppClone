@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.whatsappclone"
+    package="com.whatsappclone2"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -13,7 +13,7 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 
     <application
-        android:name="com.whatsappclone.MainApplication"
+        android:name="com.whatsappclone2.MainApplication"
         android:allowBackup="false"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -26,7 +26,7 @@
             android:name="com.facebook.react.devsupport.DevSettingsActivity"
             android:exported="false" />
         <activity
-            android:name="com.whatsappclone.MainActivity"
+            android:name="com.whatsappclone2.MainActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
             android:exported="true"
             android:label="@string/app_name"
@@ -40,24 +40,12 @@
         </activity>
 
         <meta-data
-            android:name="expo.modules.updates.ENABLED"
-            android:value="true" />
-        <meta-data
-            android:name="expo.modules.updates.EXPO_UPDATES_CHECK_ON_LAUNCH"
-            android:value="ALWAYS" />
-        <meta-data
-            android:name="expo.modules.updates.EXPO_UPDATES_LAUNCH_WAIT_MS"
-            android:value="0" />
-        <meta-data
-            android:name="expo.modules.updates.EXPO_UPDATE_URL"
-            android:value="https://u.expo.dev/eadc4afe-8f01-4764-96e1-7a7e624df378" />
-        <meta-data
-            android:name="expo.modules.updates.EXPO_RUNTIME_VERSION"
-            android:value="@string/expo_runtime_version" />
+            android:name="com.facebook.soloader.enabled"
+            android:value="false" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.whatsappclone.androidx-startup"
+            android:authorities="com.whatsappclone2.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

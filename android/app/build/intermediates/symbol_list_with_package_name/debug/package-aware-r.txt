@@ -1,4 +1,4 @@
-com.whatsappclone
+com.whatsappclone2
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -1453,6 +1453,7 @@ id accessibility_label
 id accessibility_links
 id accessibility_role
 id accessibility_state
+id accessibility_state_expanded
 id accessibility_value
 id action_bar
 id action_bar_activity_content

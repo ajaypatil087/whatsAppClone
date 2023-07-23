@@ -1,5 +1,5 @@
-current directory: /Applications/Work_Space/whatsAppClone/vendor/bundle/ruby/2.6.0/gems/ffi-1.15.5/ext/ffi_c
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20230617-18697-1kbqetd.rb extconf.rb
+current directory: /Applications/Work_Space/WhatsAppClone2/vendor/bundle/ruby/2.6.0/gems/ffi-1.15.5/ext/ffi_c
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20230722-4086-s1g30o.rb extconf.rb
 checking for ffi.h... no
 checking for ffi.h in /usr/local/include,/usr/include/ffi,/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/ffi,/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/ffi... yes
 checking for ffi_prep_closure_loc() in -lffi... yes
@@ -10,10 +10,10 @@ checking for whether -pthread is accepted as LDFLAGS... yes
 creating extconf.h
 creating Makefile
 
-current directory: /Applications/Work_Space/whatsAppClone/vendor/bundle/ruby/2.6.0/gems/ffi-1.15.5/ext/ffi_c
+current directory: /Applications/Work_Space/WhatsAppClone2/vendor/bundle/ruby/2.6.0/gems/ffi-1.15.5/ext/ffi_c
 make "DESTDIR=" clean
 
-current directory: /Applications/Work_Space/whatsAppClone/vendor/bundle/ruby/2.6.0/gems/ffi-1.15.5/ext/ffi_c
+current directory: /Applications/Work_Space/WhatsAppClone2/vendor/bundle/ruby/2.6.0/gems/ffi-1.15.5/ext/ffi_c
 make "DESTDIR="
 compiling AbstractMemory.c
 AbstractMemory.c:1100:17: warning: '(' and '{' tokens introducing statement expression appear in different macro expansion contexts [-Wcompound-token-split-by-macro]
@@ -4088,6 +4088,6 @@ compiling ffi.c
 linking shared-object ffi_c.bundle
 ld: warning: directory not found for option '-L/AppleInternal/Library/BuildRoots/c2cb9645-dafc-11ed-aa26-6ec1e3b3f7b3/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.4.Internal.sdk/usr/local/lib'
 
-current directory: /Applications/Work_Space/whatsAppClone/vendor/bundle/ruby/2.6.0/gems/ffi-1.15.5/ext/ffi_c
+current directory: /Applications/Work_Space/WhatsAppClone2/vendor/bundle/ruby/2.6.0/gems/ffi-1.15.5/ext/ffi_c
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20230617-18697-1fs1ytn
+/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20230722-4086-89x4p
